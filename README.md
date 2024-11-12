@@ -86,4 +86,5 @@ Conclusion
 In this example, you have learned about building a neural network model using scikit-learn. The guide used the diabetes dataset and built a classifier algorithm to predict the detection of diabetes.
 Our model is achieving a decent accuracy of 78 percent and 75 percent on training and test data, respectively. We observe that the model accuracy is higher than the baseline accuracy of 66 percent. The model can be further improved by doing cross-validation, feature engineering, or changing the arguments in the neural network estimator.
 Note that we have built a classification model in this guide. However, building the regression model also follows the same structure, with a couple of adjustments. The first being that instead of the estimator 'MLPClassifier', we will instantiate the estimator 'MLPRegressor'. The second adjustment is that, instead of using accuracy as the evaluation metric, we will use RMSE or R-squared value for model evaluation.
+'MLPClassifier', we will instantiate the estimator 'MLPRegressor'. The second adjustment is that, instead of using accuracy as the evaluation metric, we will use RMSE or R-squared value for model evaluation.
 
